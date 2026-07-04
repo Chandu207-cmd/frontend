@@ -1,0 +1,106 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+  --bg:#050816;
+  --card:#0B1023;
+  --border:#1F2A44;
+  --pink:#FF3CAC;
+  --blue:#4F6BFF;
+  --purple:#7B5CFF;
+  --green:#2BD576;
+  --text:#FFFFFF;
+  --secondary:#9CA3AF;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:var(--bg);
+  color:white;
+  font-family:'Inter',sans-serif;
+  overflow-x:hidden;
+}
+
+button{
+  cursor:pointer;
+}
+
+img{
+  display:block;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+body{
+
+transition:.3s;
+
+}
+
+body.dark{
+
+background:#050d1d;
+
+color:white;
+
+}
+
+body.light{
+
+background:#f5f7fc;
+
+color:#111;
+
+}
+
+/* Cards */
+
+body.light .job-card,
+body.light .details-card,
+body.light .feature-card,
+body.light .company-card{
+
+background:white;
+
+border:1px solid #d9e3f5;
+
+}
+
+/* Text */
+
+body.light h1,
+body.light h2,
+body.light h3{
+
+color:#081326;
+
+}
+
+body.light p{
+
+color:#42506b;
+
+}
+
+/* Inputs */
+
+body.light input,
+body.light select{
+
+background:white;
+
+color:black;
+
+}

@@ -1,0 +1,68 @@
+.static-page{
+
+max-width:1100px;
+
+margin:60px auto;
+
+padding:40px;
+
+background:#081326;
+
+border-radius:24px;
+
+border:1px solid #20385c;
+
+}
+
+.static-page h1{
+    font-size:38px;
+    margin-bottom:30px;
+    background:linear-gradient(90deg,#5d74ff,#ff2ea6);
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    background-clip:text;
+}
+
+.static-page p{
+
+line-height:34px;
+
+font-size:17px;
+
+color:#c8d3e6;
+
+}
+
+.contact-box{
+
+margin-top:40px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+padding:30px;
+
+background:#101d36;
+
+border-radius:20px;
+
+}
+
+.contact-box h3{
+
+color:white;
+
+}
+
+.contact-box p{
+
+color:#5d82ff;
+
+font-weight:700;
+
+}

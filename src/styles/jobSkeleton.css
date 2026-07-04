@@ -1,0 +1,75 @@
+.skeleton-card{
+background:#081326;
+border:1px solid #1a3154;
+border-radius:24px;
+padding:24px;
+min-height:280px;
+}
+
+.skeleton-line,
+.skeleton-tags span,
+.skeleton-buttons div{
+background:linear-gradient(
+90deg,
+#101d36,
+#1d3358,
+#101d36
+);
+background-size:200% 100%;
+animation:skeleton 1.2s infinite;
+border-radius:12px;
+}
+
+.skeleton-line.title{
+width:70%;
+height:26px;
+}
+
+.skeleton-line.small{
+width:40%;
+height:18px;
+margin-top:18px;
+}
+
+.skeleton-row{
+display:flex;
+gap:12px;
+margin-top:24px;
+}
+
+.skeleton-line.mini{
+width:30%;
+height:18px;
+}
+
+.skeleton-tags{
+display:flex;
+gap:10px;
+margin-top:24px;
+}
+
+.skeleton-tags span{
+width:80px;
+height:30px;
+border-radius:999px;
+}
+
+.skeleton-buttons{
+display:flex;
+gap:14px;
+margin-top:28px;
+}
+
+.skeleton-buttons div{
+height:52px;
+flex:1;
+}
+
+@keyframes skeleton{
+0%{
+background-position:200% 0;
+}
+100%{
+background-position:-200% 0;
+}
+}
