@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8081/api/jobs";
+const API_URL = "https://code2future-backend.onrender.com/api/jobs";
 
 export const getAllJobs = async () => {
   return await axios.get(API_URL);
