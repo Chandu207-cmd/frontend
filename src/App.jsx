@@ -7,6 +7,8 @@ Route
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+import { Analytics } from "@vercel/analytics/react";
+
 import Home from "./pages/Home";
 import JobDetails from "./pages/JobDetails";
 import Companies from "./pages/Companies";
@@ -47,13 +49,9 @@ autoClose={1800}
 theme="dark"
 />
 
-<ToastContainer
-position="top-right"
-autoClose={1800}
-theme="dark"
-/>
-
 <ScrollToTopButton/>
+
+<Analytics/>
 
 </BrowserRouter>
 
